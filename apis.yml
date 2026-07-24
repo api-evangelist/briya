@@ -1,8 +1,18 @@
 aid: briya
 name: Briya
-description: 'Briya is a company surfaced as a portfolio company of insight-partners and added to the
-  API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Briya builds AIRE (AI Research Environment), a privacy-first AI platform for
+  healthcare and clinical research that lets researchers analyze real-world
+  medical data without writing code. AIRE trains AI models on real-world data
+  and provides domain-specific agents for literature review, hypothesis testing,
+  population and cohort analysis, study design, and manuscript-ready output with
+  built-in validation. Data is accessed across multiple sources without
+  centralizing it into a warehouse, with a compliance posture aimed at HIPAA,
+  GDPR, and FDA/EMA regulatory standards. Briya serves emerging biotech, life
+  sciences organizations, academic institutions, and healthcare systems, with
+  offices in New York, Nashville, and Tel Aviv. The company is backed by Insight
+  Partners. This API Evangelist profile is an enrichment pass on a portfolio
+  lead; Briya publishes no public developer API surface at this time.
 url: https://raw.githubusercontent.com/api-evangelist/briya/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +20,30 @@ x-backed-by:
 - insight-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://briya.com/wp-content/uploads/2025/07/Asset-2.svg
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Artificial Intelligence
+- Clinical Research
+- Life Sciences
+- Data Analytics
+- Biotech
+- HIPAA
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +51,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/briya-domain-security.yml
 - type: Website
   url: https://briya.com/
+- type: SignUp
+  url: https://briya.com/briya-aire-signup/
+- type: Login
+  url: http://aire.briya.com/
+- type: PrivacyPolicy
+  url: https://briya.com/privacy-policy/
+- type: TermsOfService
+  url: https://briya.com/terms-and-conditions/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
