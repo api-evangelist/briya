@@ -45,7 +45,7 @@ accessModel:
 image: https://briya.com/wp-content/uploads/2025/07/Asset-2.svg
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Healthcare
@@ -71,6 +71,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://briya.com/briya-in-the-news/
+  type: Blog
+- url: https://briya.com/feed/
+  type: BlogRSS
 - type: DomainSecurity
   url: security/briya-domain-security.yml
 - type: Website
